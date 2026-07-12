@@ -1,44 +1,33 @@
-# Tic-Tac-Toe (Python, CLI + AI)
+Cyber Safe
 
-A clean, dependency-free Tic-Tac-Toe game you can run in the terminal. Supports **Human vs Human** and **Human vs AI** (random or Minimax).
+A cybersecurity project written in Python that bundles together three defensive utilities to help students and professionals understand key security concepts.
 
-## Run
-```bash
-# (optional) python -m venv .venv && source .venv/bin/activate
-python -m tictactoe.cli
-```
+Utilities Included
 
-## Features
-- 3×3 board with input validation
-- Win/draw detection
-- Human vs Human
-- Human vs AI:
-  - **Easy**: random valid moves
-  - **Hard**: Minimax (optimal)
-- Pure Python, no packages required
-- Simple tests (`tests/test_game.py`)
 
-## Project Structure
-```
-tic-tac-toe/
-  tictactoe/
-    __init__.py
-    game.py  # board + rules
-    cli.py   # interactive terminal UX
-  tests/
-    test_game.py
-  README.md
-  LICENSE
-  .gitignore
-```
+[Utility 1 name] — [what it does, e.g. "scans for weak passwords against common breach lists"]
+[Utility 2 name] — [what it does]
+[Utility 3 name] — [what it does]
 
-## Example
-```
-$ python -m tictactoe.cli
-=== TIC-TAC-TOE ===
-Mode: (1) Human vs Human  (2) Human vs AI
-> 2
-Difficulty: (1) Easy  (2) Hard
-> 2
-You are X. Enter row and column as: 1 1
-```
+
+Why I Built This
+
+Built to apply ISC² cybersecurity coursework and fundamentals to hands-on, practical tooling rather than just theory.
+
+Tech Stack
+
+
+Python
+[Any libraries used — e.g. hashlib, requests, cryptography]
+
+
+Run Locally
+
+bashpip install -r requirements.txt
+python main.py
+
+[Adjust based on actual entry point / file structure]
+
+Concepts Covered
+
+[e.g. password hashing, network scanning basics, encryption fundamentals — fill in what the three utilities actually demonstrate]
